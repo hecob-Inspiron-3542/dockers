@@ -3,7 +3,11 @@
 ```
 docker image build -t digital_devops/img_git:v1 .
 ```
-
+## Start container
+```
+docker image ls
+docker run --rm -i -t <IMAGE ID>
+```
 ## ssh keys 
 ``` 
  ~/.ssh/id_rsa.pub
