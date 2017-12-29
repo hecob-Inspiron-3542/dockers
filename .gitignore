@@ -1,0 +1,5 @@
+# ignore tmp files
+demo1/
+tmp/
+
+
