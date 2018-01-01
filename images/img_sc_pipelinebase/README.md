@@ -2,6 +2,7 @@
 ``` 
 docker pull springcloud/pipeline-base:0.7.0
 docker tag springcloud/pipeline-base:0.7.0 localhost:5000/springcloud/pipeline-base:0.7.0
+docker push localhost:5000/springcloud/pipeline-base:0.7.0
 docker image rm springcloud/pipeline-base:0.7.0
 ```
 

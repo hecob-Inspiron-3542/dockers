@@ -1,6 +1,9 @@
+##
+
+
 ## Run a local registry
-$ docker run -d -p 5000:5000 --restart=always --name registry registry:2
-                   _________   ______________        ________ __________
+$ docker run -d -p 5000:5000 --restart=always --name registry localhost:5000/registry:2
+                   _________   ______________        ________ _________________________
                        |              |                 |          |    
                        |              |                 |          +-------- distribution:tag    
                        |              |                 +------------------- name of the local image              

@@ -5,6 +5,7 @@ hub.docker.com/
 ``` 
 docker pull swce/keyval-resource:release-v1.0.5
 docker tag swce/keyval-resource:release-v1.0.5 localhost:5000/swce/keyval-resource:release-v1.0.5
+docker push localhost:5000/swce/keyval-resource:release-v1.0.5
 docker image rm swce/keyval-resource:release-v1.0.5
 ```
 

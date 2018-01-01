@@ -2,6 +2,7 @@
 ``` 
 docker pull postgres:9.6
 docker tag postgres:9.6 localhost:5000/postgres:9.6
+docker push localhost:5000/postgres:9.6
 docker image rm postgres:9.6
 ```
 

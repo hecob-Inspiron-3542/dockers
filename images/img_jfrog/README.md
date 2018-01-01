@@ -2,6 +2,7 @@
 ```
 docker pull docker.bintray.io/jfrog/artifactory-oss:5.5.1
 docker tag docker.bintray.io/jfrog/artifactory-oss:5.5.1 localhost:5000/docker.bintray.io/jfrog/artifactory-oss:5.5.1
+docker push localhost:5000/docker.bintray.io/jfrog/artifactory-oss:5.5.1
 docker image rm docker.bintray.io/jfrog/artifactory-oss:5.5.1
 ```
 
